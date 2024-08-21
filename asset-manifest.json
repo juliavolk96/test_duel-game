@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test_duel-game/static/css/main.924d43a1.css",
+    "main.js": "/test_duel-game/static/js/main.a2a8a910.js",
+    "static/js/453.4e8fa954.chunk.js": "/test_duel-game/static/js/453.4e8fa954.chunk.js",
+    "index.html": "/test_duel-game/index.html",
+    "main.924d43a1.css.map": "/test_duel-game/static/css/main.924d43a1.css.map",
+    "main.a2a8a910.js.map": "/test_duel-game/static/js/main.a2a8a910.js.map",
+    "453.4e8fa954.chunk.js.map": "/test_duel-game/static/js/453.4e8fa954.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.924d43a1.css",
+    "static/js/main.a2a8a910.js"
+  ]
+}

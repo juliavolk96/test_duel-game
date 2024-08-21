@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.menu-title {
+  font-size: 1rem;
+  text-align: center;
+}
+
+settings-label {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-input {
+  margin-top: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.settings-input[type="color"] {
+  padding: 0;
+  width: 50px;
+  height: 30px;
+  border: none;
+}
+
+.settings-value {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #0056b3;
+}
